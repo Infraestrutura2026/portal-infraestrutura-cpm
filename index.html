@@ -146,8 +146,8 @@
       display: flex; align-items: center; justify-content: space-between; gap: 14px;
       padding-block: 22px; flex-wrap: wrap;
     }
-    footer .unid { font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: 14.5px; color: #fff; }
-    footer .detalhe { font-size: 12.5px; color: rgba(255, 254, 250, .62); }
+    footer .unid { font-family: "Space Grotesk", sans-serif; font-weight: 600; font-size: 14.5px; color: #fff; text-decoration: none; }
+    footer a.unid:hover { text-decoration: underline; text-underline-offset: 4px; text-decoration-color: var(--hl-500); }
     footer .direitos { font-size: 12px; color: rgba(255, 254, 250, .55); }
     footer .barra { width: 1px; height: 26px; background: rgba(255, 254, 250, .22); }
 
@@ -253,8 +253,7 @@
   <footer>
     <div class="container">
       <div>
-        <div class="unid">Complexo Penal de Marília</div>
-        <div class="detalhe">Núcleo de Infraestrutura e Logística</div>
+        <a class="unid" href="mailto:infraestrutura@pmarilia.sap.sp.gov.br">infraestrutura@pmarilia.sap.sp.gov.br</a>
       </div>
       <span class="barra" aria-hidden="true"></span>
       <div class="direitos">Portal de Sistemas · Acesso restrito aos servidores da unidade</div>
