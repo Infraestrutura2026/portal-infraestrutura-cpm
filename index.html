@@ -45,10 +45,16 @@
 
     body {
       font-family: "Manrope", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-      background:
+      background-color: var(--paper);
+      background-image:
         radial-gradient(900px 480px at 88% -12%, rgba(30, 107, 91, .10), transparent 70%),
         radial-gradient(700px 420px at -8% 8%, rgba(233, 179, 46, .07), transparent 70%),
-        var(--paper);
+        linear-gradient(rgba(244, 243, 238, .87), rgba(244, 243, 238, .87)),
+        url("images/complexo.jpg");
+      background-size: auto, auto, auto, cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
       color: var(--ink);
       min-height: 100vh;
       display: flex;
