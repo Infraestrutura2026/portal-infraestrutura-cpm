@@ -3,6 +3,27 @@
 O portal é um site **estático de arquivo único** (`index.html`) — não precisa de
 build, framework ou configuração especial. Basta subir os arquivos para a Vercel.
 
+## ✅ Checklist antes de publicar (estado atual)
+
+A versão final do portal está na branch `arena/01a06843-portal-infraestrutura-cpm`,
+reunida no **PR #1** (aberto contra `main`). Resumo do que a versão final contém:
+
+- Link da **Gestão de Frota** apontando para `https://frotacpm.vercel.app`;
+- Cartões direto na página (sem bloco "Acesso rápido / Para onde vamos agora");
+- Cabeçalho sem o texto "Governo do Estado de São Paulo" e sem atalhos de teclado;
+- Rodapé com o e-mail `infraestrutura@pmarilia.sap.sp.gov.br`;
+- Marca d'água (foto do complexo) na área cinza, com cartões em tom mais escuro.
+
+Passos para publicar:
+
+1. **Revisar no preview** (a página já foi conferida durante os ajustes);
+2. **Fazer o merge do PR #1 em `main`** no GitHub
+   (botão *Merge pull request* → *Confirm merge*);
+3. Seguir a **Opção A** abaixo para conectar/importar o repositório na Vercel;
+4. Conferir o resultado em `https://portal-infraestrutura-cpm.vercel.app`.
+
+---
+
 ## Opção A — Conectar este repositório GitHub (recomendado, deploy automático)
 
 Com o repositório conectado, **todo push na branch `main` publica automaticamente**
