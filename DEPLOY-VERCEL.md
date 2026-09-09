@@ -8,7 +8,7 @@ build, framework ou configuração especial. Basta subir os arquivos para a Verc
 A versão final do portal está na branch `arena/01a06843-portal-infraestrutura-cpm`,
 reunida no **PR #1** (aberto contra `main`). Resumo do que a versão final contém:
 
-- Link da **Gestão de Frota** apontando para `https://frotacpm.vercel.app`;
+- Link da **Gestão de Frota** apontando para `https://frota-psi.vercel.app`;
 - Cartões direto na página (sem bloco "Acesso rápido / Para onde vamos agora");
 - Cabeçalho sem o texto "Governo do Estado de São Paulo" e sem atalhos de teclado;
 - Rodapé com o e-mail `infraestrutura@pmarilia.sap.sp.gov.br`;
