@@ -8,10 +8,10 @@ Portal de acesso aos sistemas do **Núcleo de Infraestrutura e Logística** do C
 |---|---------|-----------|------|
 | 1 | Controle de Saídas | Movimentação de PPL · Portaria — registro e consulta das saídas dos PPL's | https://controle-de-transito.vercel.app |
 | 2 | Gestão de Estoque e Controle de Ferramentas | Almoxarifado · Ferramental — controle do estoque e do uso de ferramentas | https://ferramentas-e-estoque.vercel.app |
-| 3 | **Gestão de Frota (Frota Pro v3.1)** | Veículos · Abastecimento · Manutenção — gerenciamento da frota | **https://frotacpm.vercel.app** |
+| 3 | **Gestão de Frota** | Veículos · Abastecimento · Manutenção — gerenciamento da frota | **https://frota-psi.vercel.app** |
 
 > ⚠️ O cartão **Gestão de Frota** foi atualizado para apontar ao endereço novo
-> (`https://frotacpm.vercel.app`). Antes apontava para o GitHub Pages
+> (`https://frota-psi.vercel.app`). Antes apontava para o GitHub Pages
 > (`https://infraestrutura2026.github.io/Frota`), que não é mais o endereço oficial.
 
 ## 📁 Estrutura
